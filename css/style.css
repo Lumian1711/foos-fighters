@@ -1,0 +1,90 @@
+/* ==== MODO OSCURO (por defecto) ==== */
+body {
+  background-color: #121212 !important;
+  color: #f8f9fa !important;
+  transition: background-color 0.4s, color 0.4s;
+}
+.card img {
+  height: 180px;
+  object-fit: contain;
+}
+.navbar {
+  background-color: #1c1c1c !important;
+}
+
+.hero-section {
+  background: url('../img/banner.jpg') center/cover no-repeat;
+}
+
+.card {
+  background-color: #1e1e1e;
+  color: #f8f9fa;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.card-footer {
+  background-color: transparent;
+}
+
+.bg-body-secondary {
+  background-color: #2b2b2b !important;
+}
+
+.btn-outline-light {
+  border-color: #f8f9fa;
+  color: #f8f9fa;
+}
+
+.btn-outline-light:hover {
+  background-color: #f8f9fa;
+  color: #000;
+}
+
+/* ==== MODO CLARO ==== */
+body.light-mode {
+  background-color: #f8f9fa !important;
+  color: #212529 !important;
+}
+
+body.light-mode .navbar {
+  background-color: #ffffff !important;
+  color: #212529 !important;
+}
+
+body.light-mode .card {
+  background-color: #ffffff;
+  color: #212529;
+}
+
+body.light-mode .bg-body-secondary {
+  background-color: #e9ecef !important;
+}
+
+body.light-mode .btn-outline-light {
+  border-color: #212529;
+  color: #212529;
+}
+
+body.light-mode .btn-outline-light:hover {
+  background-color: #212529;
+  color: #fff;
+}
+
+body.light-mode footer {
+  background-color: #ffffff;
+  color: #6c757d;
+}
+
+/* ==== Animaciones ==== */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 0.8s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
