@@ -1,25 +1,19 @@
 {
   "noticias": [
     {
-      "titulo": "¡Foos Fighters se prepara para su lanzamiento!",
-      "fecha": "10 Nov 2025",
-      "descripcion": "Nuestro equipo está puliendo los últimos detalles antes del lanzamiento mundial. Conoce a los equipos y prepárate para la batalla futbolera definitiva.",
-      "imagen": "img/noticias/1.png",
-      "link": "https://www.instagram.com/_foos_fighters_"
-    },
+      "titulo": "Nuevo tráiler de gameplay",
+      "fecha": "2025-02-10",
+      "descripcion": "Mostramos combos, arenas y ataques especiales.",
+      "imagen": "img/noticias/trailer.jpg",
+      "link": "#"
+    }
+  ],
+  "desarrollo": [
     {
-      "titulo": "Nuevos personajes revelados",
-      "fecha": "03 Nov 2025",
-      "descripcion": "Se unen nuevas estrellas del fútbolito: Leo de Argentina, Alex de Canadá y Chuy de México. Cada uno con habilidades únicas.",
-      "imagen": "img/noticias/2.png",
-      "link": "https://www.instagram.com/_foos_fighters_"
-    },
-    {
-      "titulo": "Demo jugable disponible",
-      "fecha": "27 Oct 2025",
-      "descripcion": "Ya puedes probar la demo oficial de Foos Fighters y participar en nuestro torneo online con premios exclusivos.",
-      "imagen": "img/noticias/4.png",
-      "link": "https://www.instagram.com/_foos_fighters_"
+      "titulo": "Creando a los personajes",
+      "fecha": "2025-01-28",
+      "descripcion": "Diseñamos movimientos únicos para cada país.",
+      "imagen": "img/dev/personajes.jpg"
     }
   ]
 }
