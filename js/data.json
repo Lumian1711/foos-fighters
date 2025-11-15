@@ -1,19 +1,41 @@
 {
   "noticias": [
     {
-      "titulo": "Nuevo tráiler de gameplay",
+      "titulo": "Primeras publicaciónes",
       "fecha": "2025-02-10",
-      "descripcion": "Mostramos combos, arenas y ataques especiales.",
-      "imagen": "img/noticias/trailer.jpg",
+      "descripcion": "¡Siguenos en nuestras redes sociales y enterate de todo!",
+      "imagen": "img/icons/1.png",
+      "link": "#"
+    },
+    {
+      "titulo": "Mira nuestras skins",
+      "fecha": "2025-02-10",
+      "descripcion": "Mostramos cada uniforme de nuestro equipos aquí",
+      "imagen": "img/equipos/MX.jpg",
+      "link": "#"
+    },
+    {
+      "titulo": "Mira nuestras skins",
+      "fecha": "2025-02-10",
+      "descripcion": "Mostramos cada uniforme de nuestro equipos aquí",
+      "imagen": "img/equipos/EUA.jpg",
+      "link": "#"
+    },
+    {
+      "titulo": "Mira nuestras skins",
+      "fecha": "2025-02-10",
+      "descripcion": "Mostramos cada uniforme de nuestro equipos aquí",
+      "imagen": "img/equipos/ARG.jpg",
       "link": "#"
     }
   ],
+  
   "desarrollo": [
     {
       "titulo": "Creando a los personajes",
       "fecha": "2025-01-28",
       "descripcion": "Diseñamos movimientos únicos para cada país.",
-      "imagen": "img/dev/personajes.jpg"
+      "imagen": "img/equipos/CND.jpg"
     }
   ]
 }
