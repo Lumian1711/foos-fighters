@@ -10,7 +10,6 @@
 /* Fondo foss */
 .bg-foss {
     background: linear-gradient(90deg, var(--rojo),  var(--azul));
-    min-height: 100%;
 }
 /* NAV FIJO */
 nav.navbar {
