@@ -1,40 +1,46 @@
 {
   "noticias": [
     {
-      "titulo": "Primeras publicaciónes",
-      "fecha": "2025-02-10",
-      "descripcion": "¡Siguenos en nuestras redes sociales y enterate de todo!",
-      "imagen": "img/icons/1.png",
-      "link": "#"
-    },
-    {
       "titulo": "Mira nuestras skins",
-      "fecha": "2025-02-10",
+      "fecha": "02-10-25",
       "descripcion": "Mostramos cada uniforme de nuestro equipos aquí",
       "imagen": "img/equipos/MX.jpg",
       "link": "#"
     },
     {
-      "titulo": "Mira nuestras skins",
-      "fecha": "2025-02-10",
+      "titulo": "Tenemos más objetod que mostrar",
+      "fecha": "02-10-25",
       "descripcion": "Mostramos cada uniforme de nuestro equipos aquí",
       "imagen": "img/equipos/EUA.jpg",
       "link": "#"
     },
     {
       "titulo": "Mira nuestras skins",
-      "fecha": "2025-02-10",
+      "fecha": "02-10-25",
       "descripcion": "Mostramos cada uniforme de nuestro equipos aquí",
       "imagen": "img/equipos/ARG.jpg",
+      "link": "#"
+    },
+    {
+      "titulo": "Primeras publicaciónes",
+      "fecha": "24-09-25",
+      "descripcion": "¡Siguenos en nuestras redes sociales y enterate de todo!",
+      "imagen": "img/icons/1.png",
       "link": "#"
     }
   ],
   
   "desarrollo": [
     {
-      "titulo": "Creando a los personajes",
+      "titulo": "Creando un videojuego desde 0 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
       "fecha": "2025-01-28",
-      "descripcion": "Diseñamos movimientos únicos para cada país.",
+      "descripcion": "Aqui puedes ver nuestro porgreso desde el día 1 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "imagen": "img/equipos/CND.jpg"
+    },
+    {
+      "titulo": "Creando un videojuego desde 0",
+      "fecha": "2025-01-28",
+      "descripcion": "Aqui puedes ver nuestro porgreso desde el día 1",
       "imagen": "img/equipos/CND.jpg"
     }
   ]

@@ -11,7 +11,7 @@
 .bg-foss {
     background: linear-gradient(90deg, var(--rojo),  var(--azul));
 }
-/*NAV*/
+/* NAV FIJO */
 nav.navbar {
     position: fixed;
     background: black;
@@ -20,76 +20,79 @@ nav.navbar {
     z-index: 1000;
 }
 body { padding-top: 80px; }
-
+.foss-logo:hover{
+    color: var(--verde);
+}
 .foss-logo {
     color: var(--blanco);
     font-size: 1.7rem;
     letter-spacing: 2px;
-}
-.foss-logo:hover{
-    color: var(--verde);
 }
 .foss-link {
     color: var(--blanco) !important;
     margin-left: 20px;
     font-size: 1.1rem;
 }
-
 .foss-link:hover {
     color: var(--verde) !important;
 }
-
 /* HERO */
 .hero-section {
-    height: 80vh;
-    background: url('/img/desarrollo/cancha_frente_black.jpg') center/cover no-repeat;
+    height: 40vh;
 }
-
 .hero-title {
     font-size: 4rem;
-    color: #ffffff;
+    color: var(--blanco);
     text-shadow: 3px 3px #000;
 }
-
 .hero-subtitle {
-    color: white;
-    font-size: 1.3rem;
+    color: var(--blanco);
 }
-#verde{
+#equipos{
   color: var(--verde);
 }
-.section-title {
-    color: #fff;
-    font-size: 2.2rem;
+
+.card-container{
+    margin: 3%;
+    align-items: center;
 }
-.news-card {
-    background: rgba(34, 34, 34, 0.671);;
-    border-radius: 12px;
+.card {
+    background: rgba(34, 34, 34, 0.671);
+    padding-bottom: 15px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
     overflow: hidden;
-    height: 100%;
+    height: 400px;
+    min-width: 95%;
+    transition: transform .3s;
+    margin-bottom: 25px;
 }
-.news-card img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
+
+.card:hover {
+    transform: scale(1.05);
 }
-.news-card .card-body { 
-  margin: 20px;
-  color: rgb(255, 255, 255); }
-h5{
-  margin: 10px;
-  display: flex;
+.card-body{
+    width: 50%;
+}
+.card-img-top{
+    display: flex;
+    align-items:first baseline;
+    width: 20rem;
+}
+.card-title {
+    display: flex;
+    color: var(--blanco);
+    margin: 5px;
+    font-size: 1.5rem;
+    text-align: end;
 }
 .fecha{
-  color: var(--verde);
-  text-align: end;
+    color: var(--verde);
 }
-.btn{
-  background-color: var(--azul);
-  color: var(--blanco);
-  border: none;
+.card-text {
+    margin: 5px;
+    color: #fff;
 }
-
 /* FOOTER */
 .foss-footer {
     color: white;

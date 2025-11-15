@@ -44,7 +44,7 @@
     <p>
         Foos Fighters es un videojuego estilo arena-fighter inspirado en el mundial FIFA,
         con jugadores representados como figuras de futbolito. Participan los equipos:
-        <e id="equipos">México, EUA, Canadá y Argentina</e>.
+        <e id="verde">México, EUA, Canadá y Argentina</e>.
     </p>
 </section>
 
@@ -74,96 +74,34 @@
         </button>
     </div>
 </div>
-
-
-
-        <!-- Sidebar Desarrollo -->
-        <div class="col-lg-4">
-            <div class="news-card side-dev">
-                <img src="img/equipos/CND.jpg" alt="">
-                <div class="card-body">
-                    <h4 class="card-title">Desarrollo</h4>
-                    <p>
-                        Conoce cómo estamos creando el juego: arte, mecánicas, música,
-                        pruebas internas, personajes y más.
-                    </p>
-                    <a href="desarrollo.html" class="btn btn-warning w-100">Ver publicaciones</a>
-                </div>
+    <!-- Sidebar Desarrollo -->
+    <div class="col-lg-4">
+        <div class="news-card">
+            <img src="img/equipos/CND.jpg" alt="">
+            <div class="card-body">
+              <br>
+                <h4 class="card-title">Desarrollo</h4>
+                <br>
+                <p>
+                    Conoce cómo estamos creando el juego desde el desarrollo de: arte, mecánicas, 
+                    objetos, música, pruebas internas, personajes y más.
+                </p>
+                <a href="desarrollo.html" class="btn w-100">Ver publicaciones</a>
             </div>
         </div>
-
+    </div>
     </div>
 </section>
 
 <!-- FOOTER -->
 <footer class="foss-footer text-center py-4">
-    Síguenos en Instagram: <strong>@_foos_fighters</strong>
+    Instagram: <e id="verde">@_foos_fighters_</e>
+    <p>Foos Fighters © 2025</p>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-<!-- Noticias dinámicas -->
-<script>
-fetch("js/data.json")
-  .then(res => res.json())
-  .then(data => {
-    const indicators = document.getElementById("news-indicators");
-    const slides = document.getElementById("news-slides");
-
-    let slideIndex = 0;
-
-    for (let i = 0; i < data.noticias.length; i += 2) {
-
-      const noticia1 = data.noticias[i];
-      const noticia2 = data.noticias[i + 1];
-
-      // indicator
-      indicators.innerHTML += `
-        <button type="button" data-bs-target="#newsCarousel" data-bs-slide-to="${slideIndex}"
-          class="${slideIndex === 0 ? 'active' : ''}">
-        </button>
-      `;
-
-      // slide
-      slides.innerHTML += `
-        <div class="carousel-item ${slideIndex === 0 ? 'active' : ''}">
-            <div class="row g-4">
-
-                <!-- Card 1 -->
-                <div class="col-md-6">
-                    <div class="news-card">
-                        <img src="${noticia1.imagen}" alt="">
-                        <div class="card-body">
-                            <h5>${noticia1.titulo}</h5>
-                            <p class="text-info small">${noticia1.fecha}</p>
-                            <p>${noticia1.descripcion}</p>
-                            <a href="${noticia1.link}" class="btn btn-primary w-100">Ver más</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Card 2 (solo si existe) -->
-                ${ noticia2 ? `
-                <div class="col-md-6">
-                    <div class="news-card">
-                        <img src="${noticia2.imagen}" alt="">
-                        <div class="card-body">
-                            <h5>${noticia2.titulo}</h5>
-                            <p class="text-info small">${noticia2.fecha}</p>
-                            <p>${noticia2.descripcion}</p>
-                            <a href="${noticia2.link}" class="btn btn-primary w-100">Ver más</a>
-                        </div>
-                    </div>
-                </div>` : "" }
-
-            </div>
-        </div>
-      `;
-
-      slideIndex++;
-    }
-  });
-</script>
+<script src="js/noticias.js"></script>
 
 </body>
 </html>

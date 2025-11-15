@@ -4,14 +4,14 @@ fetch("js/data.json")
     const container = document.getElementById("dev-container");
     data.desarrollo.forEach(post => {
       container.innerHTML += `
-        <div class="col-md-4 mb-4">
+        <div class="card-container">
           <div class="card h-100 shadow border-0">
-            <img src="${post.imagen}" class="card-img-top">
-            <div class="card-body">
-              <h5 class="fw-bold">${post.titulo}</h5>
-              <p class="text-muted small">${post.fecha}</p>
-              <p>${post.descripcion}</p>
+            <div class="div">
+              <img src="${post.imagen}" class="card-img-top">
             </div>
+              <h5 class="card-title">${post.titulo}</h5>
+              <p class="fecha small">${post.fecha}</p>
+              <p class="card-text">${post.descripcion}</p>
           </div>
         </div>
       `;
