@@ -7,11 +7,10 @@
 * {
     font-family: 'Russo One', sans-serif;
 }
-/* Fondo foss */
 .bg-foss {
     background: linear-gradient(90deg, var(--rojo),  var(--azul));
 }
-/* NAV FIJO */
+/* NAV */
 nav.navbar {
     position: fixed;
     background: black;
@@ -53,7 +52,7 @@ body { padding-top: 80px; }
   color: var(--verde);
 }
 
-/* CARDS estilo foss */
+/* CARDS */
 .foss-card {
     background: rgba(34, 34, 34, 0.671);
     padding-bottom: 15px;

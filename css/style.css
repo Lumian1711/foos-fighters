@@ -7,7 +7,6 @@
 * {
     font-family: 'Russo One', sans-serif;
 }
-/* Fondo foss */
 .bg-foss {
     background: linear-gradient(90deg, var(--rojo),  var(--azul));
 }
